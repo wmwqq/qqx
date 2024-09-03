@@ -1,12 +1,11 @@
 js_config:
 - Container:
   - []
-  Env: jd_wxCartKoi_activityId
+  Env: jd_lzkj_10058_dplb_urls
   KeyWord:
-  - - jd_wxCartKoi_activityId
-  - - jd_wx_CartKoi
-  - - jd_wx_cartKoi_id
-  Name: 【云上】购物车锦鲤
-  Script: jd_wxCartKoi.js
+  - - lzkj
+  - - activityType=10058
+  Name: 【环境】lzkj_10058店铺礼包
+  Script: jd_lzkj_10058_dplb.js
   TimeOut: 0
   Wait: 5
