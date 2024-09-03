@@ -1,0 +1,12 @@
+js_config:
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  - - jd_wx_CartKoi
+  - - jd_wx_cartKoi_id
+  Name: 【云上】购物车锦鲤
+  Script: jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 5
