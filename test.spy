@@ -5,6 +5,7 @@ js_config:
   KeyWord:
   - - wxShopGift
   Name: 【环境】cjhy店铺礼包
-  Script: jd_cjhy_wxShopGift.js.js
+  RegularRules: '@[\d|a-z]{32}@0'
+  Script: jd_cjhy_wxShopGift.js
   TimeOut: 0
-  Wait: 5
+  Wait: 2
