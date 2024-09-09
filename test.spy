@@ -9,3 +9,12 @@ js_config:
   Script: jd_cjhy_wxShopGift.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10024_jgyl_activityId
+  KeyWord:
+  - - jd_lzkj_10024_jgyl_activityId
+  Name: 【环境】lzkj_10024加购有礼
+  Script: jd_lzkj_100_jgyl.js
+  TimeOut: 0
+  Wait: 2
