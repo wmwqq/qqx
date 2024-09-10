@@ -28,3 +28,12 @@ js_config:
   Script: jd_lzkj_10058_dplb.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jingyun_plusGift_urls
+  KeyWord:
+  - - M_WX_ADD_CART_URL
+  Name: 【环境】jingyun 加购
+  Script: jd_jingyun_plusGift.js
+  TimeOut: 0
+  Wait: 2
