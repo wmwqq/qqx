@@ -49,19 +49,19 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_dailyGrabs_url
+  Env: jd_daily_activityUrl
   KeyWord:
   - - M_WX_DAILY_URL
   Name: 【Facker】每日抢好礼（超级无线）
-  Script: jd_lzkj_dailyGrabs.js
+  Script: jd_daily.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_draw_url
+  Env: jd_lzkj_100_draw_urls
   KeyWord:
   - - M_WX_LUCK_DRAW_URL
-  Name: 【Facker】幸运抽奖（超级无线）
-  Script: jd_lzkj_draw.js
+  Name: 【环境】幸运抽奖（超级无线）
+  Script: jd_lzkj_100_draw.js
   TimeOut: 0
   Wait: 2
