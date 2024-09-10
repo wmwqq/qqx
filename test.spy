@@ -47,3 +47,21 @@ js_config:
   Script: jd_lzkj_10033_zdgf.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_dailyGrabs_url
+  KeyWord:
+  - - M_WX_DAILY_URL
+  Name: 【Facker】每日抢好礼（超级无线）
+  Script: jd_lzkj_dailyGrabs.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_draw_url
+  KeyWord:
+  - - M_WX_LUCK_DRAW_URL
+  Name: 【Facker】幸运抽奖（超级无线）
+  Script: jd_lzkj_draw.js
+  TimeOut: 0
+  Wait: 2
