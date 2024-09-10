@@ -37,3 +37,13 @@ js_config:
   Script: jd_jingyun_plusGift.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10033_zdgf_Ids
+  KeyWord:
+  - - M_WX_TEAM_URL
+  Name: 【环境】lzkj_10033组队瓜分
+  RegularRules: '@[\d|0-9]{19}@0'
+  Script: jd_lzkj_10033_zdgf.js
+  TimeOut: 0
+  Wait: 2
