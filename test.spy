@@ -23,7 +23,6 @@ js_config:
   Env: jd_lzkj_10058_dplb_urls
   KeyWord:
   - - M_WX_SHOP_GIFT_URL
-  - - activityType=10058
   Name: 【环境】lzkj_10058店铺礼包
   Script: jd_lzkj_10058_dplb.js
   TimeOut: 0
