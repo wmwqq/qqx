@@ -30,11 +30,11 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_jingyun_plusGift_urls
+  Env: jd_lzkj_100_jgyl_urls
   KeyWord:
   - - M_WX_ADD_CART_URL
-  Name: 【环境】jingyun 加购
-  Script: jd_jingyun_plusGift.js
+  Name: 【环境】lzkj 100 加购有礼
+  Script: jd_lzkj_100_jgyl.js
   TimeOut: 0
   Wait: 2
 - Container:
