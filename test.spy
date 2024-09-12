@@ -4,6 +4,7 @@ js_config:
   Env: jd_cjhy_wxShopGift_ids
   KeyWord:
   - - wxShopGift
+  - - M_WX_SHOP_GIFT_URL
   Name: 【环境】cjhy店铺礼包
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_cjhy_wxShopGift.js
