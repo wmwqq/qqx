@@ -64,3 +64,13 @@ js_config:
   Script: jd_lzkj_10058_dplb.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10043_fxyl_activityId
+  KeyWord:
+  - - M_WX_SHARE_URL
+  Name: 【环境】lzkj_10043分享有礼
+  RegularRules: '@[\d|0-9]{19}@0'
+  Script: jd_lzkj_10043_fxyl.js
+  TimeOut: 0
+  Wait: 2
