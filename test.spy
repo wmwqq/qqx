@@ -4,7 +4,7 @@ js_config:
   Env: jd_cjhy_wxShopGift_ids
   KeyWord:
   - - M_WX_SHOP_GIFT_URL
-  Name: 【环境】cjhy店铺礼包
+  Name: 【环境-渣渣】cjhy店铺礼包
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_cjhy_wxShopGift.js
   TimeOut: 0
@@ -14,7 +14,7 @@ js_config:
   Env: jd_lzkj_10024_jgyl_activityId
   KeyWord:
   - - jd_lzkj_10024_jgyl_activityId
-  Name: 【环境】lzkj_10024加购有礼
+  Name: 【环境-渣渣】lzkj_10024加购有礼
   Script: jd_lzkj_100_jgyl.js
   TimeOut: 0
   Wait: 2
@@ -23,7 +23,7 @@ js_config:
   Env: jd_lzkj_100_jgyl_urls
   KeyWord:
   - - M_WX_ADD_CART_URL
-  Name: 【环境】lzkj 100 加购有礼
+  Name: 【环境-渣渣】lzkj 100 加购有礼
   Script: jd_lzkj_100_jgyl.js
   TimeOut: 0
   Wait: 2
@@ -32,7 +32,7 @@ js_config:
   Env: jd_lzkj_10033_zdgf_Ids
   KeyWord:
   - - M_WX_TEAM_URL
-  Name: 【环境】lzkj_10033组队瓜分
+  Name: 【环境-渣渣】lzkj_10033组队瓜分
   RegularRules: '@[\d|0-9]{19}@0'
   Script: jd_lzkj_10033_zdgf.js
   TimeOut: 0
@@ -42,7 +42,7 @@ js_config:
   Env: jd_daily_activityUrl
   KeyWord:
   - - M_WX_DAILY_URL
-  Name: 【Facker】每日抢好礼（超级无线）
+  Name: 【Facker-渣渣】每日抢好礼（超级无线）
   Script: jd_daily.js
   TimeOut: 0
   Wait: 2
@@ -51,7 +51,7 @@ js_config:
   Env: jd_lzkj_100_draw_urls
   KeyWord:
   - - M_WX_LUCK_DRAW_URL
-  Name: 【环境】幸运抽奖（超级无线）
+  Name: 【环境-渣渣】幸运抽奖（超级无线）
   Script: jd_lzkj_100_draw.js
   TimeOut: 0
   Wait: 2
@@ -60,7 +60,7 @@ js_config:
   Env: jd_lzkj_10058_dplb_urls
   KeyWord:
   - - M_WX_SHOP_GIFT_URL
-  Name: 【环境】lzkj_10058店铺礼包
+  Name: 【环境-渣渣】lzkj_10058店铺礼包
   Script: jd_lzkj_10058_dplb.js
   TimeOut: 0
   Wait: 2
@@ -69,7 +69,7 @@ js_config:
   Env: jd_lzkj_10043_fxyl_activityId
   KeyWord:
   - - M_WX_SHARE_URL
-  Name: 【环境】lzkj_10043分享有礼
+  Name: 【环境-渣渣】lzkj_10043分享有礼
   RegularRules: '@[\d|0-9]{19}@0'
   Script: jd_lzkj_10043_fxyl.js
   TimeOut: 0
@@ -79,7 +79,7 @@ js_config:
   Env: jd_lzkj_100_sign_urls
   KeyWord:
   - - M_WX_SHOP_SIGN_URL
-  Name: 【环境】lzkj 100 签到
+  Name: 【环境-渣渣】lzkj 100 签到
   Script: jd_lzkj_100_sign.js
   TimeOut: 0
   Wait: 2
@@ -88,7 +88,7 @@ js_config:
   Env: jd_cjhy_wxDrawActivity_Id
   KeyWord:
   - - M_WX_LUCK_DRAW_URL
-  Name: 【环境】cjhy幸运抽奖
+  Name: 【环境-渣渣】cjhy幸运抽奖
   RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_cjhy_wxDrawActivity.js
   TimeOut: 0
@@ -98,7 +98,16 @@ js_config:
   Env: jd_cjhy_signActivity_urls
   KeyWord:
   - - M_WX_SHOP_SIGN_URL
-  Name: 【环境】cjhy签到有礼
+  Name: 【环境-渣渣】cjhy签到有礼
   Script: jd_cjhy_signActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_exchangeActDetail_url
+  KeyWord:
+  - - M_WX_POINT_DRAW_URL
+  Name: 【环境-渣渣】cjhy签到有礼
+  Script: jd_jinggeng_exchangeActDetail.js
   TimeOut: 0
   Wait: 2
