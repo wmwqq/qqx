@@ -83,3 +83,13 @@ js_config:
   Script: jd_lzkj_100_sign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_wxDrawActivity_Id
+  KeyWord:
+  - - M_WX_LUCK_DRAW_URL
+  Name: 【环境】cjhy幸运抽奖
+  RegularRules: '@[\d|a-z]{32}@0'
+  Script: jd_cjhy_wxDrawActivity.js
+  TimeOut: 0
+  Wait: 2
