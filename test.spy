@@ -93,3 +93,12 @@ js_config:
   Script: jd_cjhy_wxDrawActivity.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_signActivity_urls
+  KeyWord:
+  - - M_WX_SHOP_SIGN_URL
+  Name: 【环境】cjhy签到有礼
+  Script: jd_cjhy_signActivity.js
+  TimeOut: 0
+  Wait: 2
