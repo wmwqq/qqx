@@ -74,3 +74,12 @@ js_config:
   Script: jd_lzkj_10043_fxyl.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_100_sign_urls
+  KeyWord:
+  - - M_WX_SHOP_SIGN_URL
+  Name: 【环境】lzkj 100 签到
+  Script: jd_lzkj_100_sign.js
+  TimeOut: 0
+  Wait: 2
