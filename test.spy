@@ -111,3 +111,12 @@ js_config:
   Script: jd_cjhy_wxPointShopView.js
   TimeOut: 0
   Wait: 5
+- Container:
+  - []
+  Env: jd_jingyun_sign_urls
+  KeyWord:
+  - - M_WX_SHOP_SIGN_URL
+  Name: 【环境-渣渣】jingyun 签到
+  Script: jd_jingyun_sign.js
+  TimeOut: 0
+  Wait: 5
