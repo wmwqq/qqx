@@ -104,10 +104,10 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_jinggeng_exchangeActDetail_url
+  Env: jd_cjhy_wxPointShopView_url
   KeyWord:
   - - M_WX_POINT_DRAW_URL
-  Name: 【环境-渣渣】cjhy签到有礼
-  Script: jd_jinggeng_exchangeActDetail.js
+  Name: 【环境-渣渣】cjhy积分兑换京豆
+  Script: jd_cjhy_wxPointShopView.js
   TimeOut: 0
-  Wait: 2
+  Wait: 5
