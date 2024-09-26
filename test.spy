@@ -95,13 +95,13 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_cjhy_signActivity_urls
+  Env: jd_wx_shopSign_activityUrl
   KeyWord:
   - - M_WX_SHOP_SIGN_URL
-  Name: 【环境-渣渣】cjhy签到有礼
-  Script: jd_cjhy_signActivity.js
+  Name: 【环境-Facker】店铺签到监控（超级无线/超级会员）
+  Script: jd_wx_shopSign.js
   TimeOut: 0
-  Wait: 2
+  Wait: 5
 - Container:
   - []
   Env: jd_cjhy_wxPointShopView_url
