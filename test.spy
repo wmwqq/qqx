@@ -168,3 +168,135 @@ js_config:
   Script: jd_live_lottery.js
   TimeOut: 0
   Wait: 180
+- Container:
+  - []
+  Env: jd_lzkj_100_jgyl_urls
+  KeyWord:
+  - - K_WX_ADD_CART_URL
+  Name: 【环境-渣渣】lzkj 100 加购有礼
+  Script: jd_lzkj_100_jgyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10033_zdgf_Ids
+  KeyWord:
+  - - K_WX_TEAM_URL
+  Name: 【环境-渣渣】lzkj_10033组队瓜分
+  RegularRules: '@[\d|a-z]{19}@0'
+  Script: jd_lzkj_10033_zdgf.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_daily_activityUrl
+  KeyWord:
+  - - K_WX_DAILY_URL
+  Name: 【Facker-渣渣】每日抢好礼（超级无线）
+  Script: jd_daily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_100_draw_urls
+  KeyWord:
+  - - K_WX_LUCK_DRAW_URL
+  Name: 【环境-渣渣】幸运抽奖（超级无线）
+  Script: jd_lzkj_100_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10058_dplb_urls
+  KeyWord:
+  - - K_WX_SHOP_GIFT_URL
+  Name: 【环境-渣渣】lzkj_10058店铺礼包
+  Script: jd_lzkj_10058_dplb.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_10043_fxyl_activityId
+  KeyWord:
+  - - K_WX_SHARE_URL
+  Name: 【环境-渣渣】lzkj_10043分享有礼
+  RegularRules: '@[\d|a-z]{19}@0'
+  Script: jd_lzkj_10043_fxyl.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_100_sign_urls
+  KeyWord:
+  - - K_WX_SHOP_SIGN_URL
+  Name: 【环境-渣渣】lzkj 100 签到
+  Script: jd_lzkj_100_sign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_wxDrawActivity_Id
+  KeyWord:
+  - - K_WX_LUCK_DRAW_URL
+  Name: 【环境-渣渣】cjhy幸运抽奖
+  RegularRules: '@[\d|a-z]{32}@0'
+  Script: jd_cjhy_wxDrawActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wx_shopSign_activityUrl
+  KeyWord:
+  - - K_WX_SHOP_SIGN_URL
+  Name: 【环境-Facker】店铺签到监控（超级无线/超级会员）
+  Script: jd_wx_shopSign.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_cjhy_wxPointShopView_url
+  KeyWord:
+  - - K_WX_POINT_DRAW_URL
+  Name: 【环境-渣渣】cjhy积分兑换京豆
+  Script: jd_cjhy_wxPointShopView.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_jingyun_sign_urls
+  KeyWord:
+  - - K_WX_SHOP_SIGN_URL
+  Name: 【环境-渣渣】jingyun 签到
+  Script: jd_jingyun_sign.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_10070_yqhyrh_activityId
+  KeyWord:
+  - - K_INTERACT_INVITE_URL
+  Name: 【环境-渣渣】lzkj_10070邀请好友入会
+  RegularRules: '@[\d|a-z]{19}@0'
+  Script: jd_lzkj_10070_yqhyrh.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_pointExgBeans_activityUrl
+  KeyWord:
+  - - K_WX_POINT_DRAW_URL
+  Name: 【Facker-渣渣】积分兑换京豆（超级会员）
+  Script: jd_pointExgBeans.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_10069_gzyl_activityId
+  KeyWord:
+  - - K_WX_FOLLOW_DRAW_URL
+  Name: 【环境-渣渣】lzkj_10069关注店铺有礼
+  RegularRules: '@[\d|a-z]{19}@0'
+  Script: jd_lzkj_10069_gzyl.js
+  TimeOut: 0
+  Wait: 5
+
