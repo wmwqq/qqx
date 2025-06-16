@@ -161,11 +161,11 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_live_ids
+  Env: jd_liveLottery_ids
   KeyWord:
   - - jd_liveLottery_ids
   Name: 【环境-Faker】直播抽奖
-  Script: jd_live_lottery.js
+  Script: jd_liveLottery.js
   TimeOut: 0
   Wait: 180
 - Container:
